@@ -42,6 +42,7 @@ export const Footer = () => {
                     <img src={data.twitter.publicURL} alt="Twitter" />
                 </a>
             </FooterSocialIcons>
+            <p>© 2020 Lukas Rahm Company. All rights reserved.</p>
         </FooterSocialWrapper>
     </FooterWrapper>
 }
