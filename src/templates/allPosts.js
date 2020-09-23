@@ -1,5 +1,5 @@
 import React from "react"
-import {graphql} from "gatsby"
+import { graphql } from "gatsby"
 import {
   Container,
   Content,
@@ -10,7 +10,7 @@ import {
 import { H1, P } from "../elements"
 
 const allPosts = ({ pageContext, data }) => {
-  const {currentPage, numPages} = pageContext
+  const { currentPage, numPages } = pageContext
   const isFirst = currentPage === 1
   const isLast = currentPage === numPages
   const prevPage = currentPage - 1 === 1 ? "/" : `/${currentPage - 1}`
@@ -23,10 +23,12 @@ const allPosts = ({ pageContext, data }) => {
       <FeatureImage />
       <Content>
         <H1 textAlign="center" margin="0 0 1rem 0">
-          just some dummy text
+          Elit rhoncus tellus proin parturient.
         </H1>
         <P color="dark2" textAlign="center">
-          some lorem ipsum kinde text
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing
+          volutpat risus quis lorem pulvinar et pulvinar sit dictum. Eget orci,
+          orci in congue cursus nulla tincidunt facilisi.
         </P>
         {posts.map(post => (
           <ContentCard
@@ -38,6 +40,7 @@ const allPosts = ({ pageContext, data }) => {
           />
         ))}
       </Content>
+
       <Pagination
         isFirst={isFirst}
         isLast={isLast}
@@ -61,7 +64,8 @@ export const pageQuery = graphql`
         node {
           frontmatter {
             slug
-            date
+            title
+            date(formatString: "MMMM DD, YYYY")
             excerpt
           }
         }
