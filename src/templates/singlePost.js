@@ -31,6 +31,8 @@ export const pageQuery = graphql`
             frontmatter {
               date
               excerpt
+              slug
+              title
               featureImage {
                 childImageSharp {
                   fixed {
