@@ -25,12 +25,10 @@ const allPosts = ({ pageContext, data }) => {
       <FeatureImage />
       <Content>
         <H1 textAlign="center" margin="0 0 1rem 0">
-          Elit rhoncus tellus proin parturient.
+          Gatsby MDX Blog
         </H1>
         <P color="dark2" textAlign="center">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing
-          volutpat risus quis lorem pulvinar et pulvinar sit dictum. Eget orci,
-          orci in congue cursus nulla tincidunt facilisi.
+          I'm studying software and web development and this is my first blog and website created using gatsby.
         </P>
         {posts.map(post => (
           <ContentCard
