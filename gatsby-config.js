@@ -1,5 +1,13 @@
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: "My MDX Blog",
+    description: "A simple blog built with Gatsby and MDX",
+    url: "https://www.linkedin.com/in/lukas-rahm-13570b139/",
+    image: "/notoffice.jpg",
+    /* twitterUsername:@none, */
+    author: "Lukas Rahm",
+  },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
