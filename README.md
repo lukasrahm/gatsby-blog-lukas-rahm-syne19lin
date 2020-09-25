@@ -1,3 +1,7 @@
+Credit to:
+Shillthrive: https://www.youtube.com/watch?v=vfvfmUFAa-s&list=PLW0RabRDhwwzVNhlOgQQgw6HJzXdM1MnT
+Fullstack Mastery: https://www.youtube.com/watch?v=GGkBwpxV7AI
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
