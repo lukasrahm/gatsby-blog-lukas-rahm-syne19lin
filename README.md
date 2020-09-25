@@ -3,6 +3,8 @@
 <p>
 Credit to:
 Shillthrive: https://www.youtube.com/watch?v=vfvfmUFAa-s&list=PLW0RabRDhwwzVNhlOgQQgw6HJzXdM1MnT
+</p>
+<p>
 Fullstack Mastery: https://www.youtube.com/watch?v=GGkBwpxV7AI
 </p>
 <p align="center">
